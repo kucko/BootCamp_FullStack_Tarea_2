@@ -1,0 +1,214 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #272829;
+}
+
+a {
+    color: #0563bb;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #067ded;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+.seccion {
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.seccion-titutlo {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.seccion-titulo h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #45505b;
+}
+
+.seccion-titulo h2::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+
+.seccion-titulo h2::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #0563bb;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+
+.seccion-titulo p {
+    margin-bottom: 0;
+}
+
+
+/*--------------------------------------------------------------
+# Acercade
+--------------------------------------------------------------*/
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.acercade .content h3 {
+    font-weight: 700;
+    font-size: 26px;
+    color: #728394;
+}
+
+.acercade .content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.acercade .content ul li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.acercade .content ul strong {
+    margin-right: 10px;
+}
+
+.acercade .content ul i {
+    font-size: 16px;
+    margin-right: 5px;
+    color: #0563bb;
+    line-height: 0;
+}
+
+.acercade .content p:last-child {
+    margin-bottom: 0;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.col-lg-8,
+.col-lg-6,
+.col-lg-4 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.pt-4,
+.py-4 {
+    padding-top: 1.5rem !important;
+}
+
+.pt-lg-0,
+.py-lg-0 {
+    padding-top: 0 !important;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+/*--------------------------------------------------------------
+# Contacto
+--------------------------------------------------------------*/
+
+.contacto .info h4 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #45505b;
+}
+
+.contacto {
+    text-align: center;
+}
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+#footer {
+    background: #f7f8f9;
+    color: #45505b;
+    font-size: 14px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+#footer h3 {
+    font-size: 36px;
+    font-weight: 700;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0 0 15px 0;
+}
+
+#footer p {
+    font-size: 15;
+    font-style: italic;
+    padding: 0;
+    margin: 0 0 40px 0;
+}
